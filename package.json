@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "pnpm --filter \"./packages/**\" build"
+    "build": "pnpm --filter \"./packages/**\" build",
+     "lint": "eslint ."
   },
   "keywords": [],
   "author": "",
@@ -20,6 +21,11 @@
   "type": "module",
   "devDependencies": {
     "@changesets/cli": "^3.0.3",
+    "@typescript-eslint/eslint-plugin": "^8.71.0",
+    "@typescript-eslint/parser": "^8.71.0",
+    "eslint": "^10.12.0",
+    "eslint-plugin-react": "^7.37.5",
+    "eslint-plugin-react-hooks": "^7.1.1",
     "tsup": "^8.5.1",
     "typescript": "^7.0.2"
   }
