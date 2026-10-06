@@ -1,0 +1,26 @@
+{
+  "name": "plot-ink",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "pnpm --filter \"./packages/**\" build"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "version": "12.9.1",
+      "onFail": "download"
+    }
+  },
+  "packageManager": "pnpm@12.9.1",
+  "type": "module",
+  "devDependencies": {
+    "@changesets/cli": "^3.0.3",
+    "tsup": "^8.5.1",
+    "typescript": "^7.0.2"
+  }
+}
